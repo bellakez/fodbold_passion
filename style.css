@@ -161,3 +161,12 @@ iframe {
   height: auto;
   aspect-ratio: 16/9;
 }
+
+video {
+  width: 100%;
+}
+footer {
+  font-size: 1.1rem;
+  font-family: "Assistant", sans-serif;
+  color: #ffffff;
+}
