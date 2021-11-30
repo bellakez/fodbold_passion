@@ -145,7 +145,7 @@ article {
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
 }
 .gallery img {
   height: 100%;
@@ -154,4 +154,10 @@ article {
 .box1 {
   padding-top: 60%;
   padding-right: 60%;
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
 }
